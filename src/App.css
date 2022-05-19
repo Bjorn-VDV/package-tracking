@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #1a1919;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+#app {
+  width: 600px;
+  margin: 0 auto;
+  height: 500px
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 5%;
+}
+
+span {
+  margin-top: 5%
+}
+
+span.RightSide {
+  color: whitesmoke;
+  font-weight: initial;
+}
+
+li {
+  list-style-type: none;
+  color: orange;
+  font-weight: bold;
+}
+
+select {
+  height: 30px;
+  background-color: #444343;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+button {
+  height: 30px;
+  background-color: #1a1919;
+  color: #f1af3a;
+  font-weight: bold;
+}
+
+li.Note {
+  color: cyan;
+  font-weight: initial;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

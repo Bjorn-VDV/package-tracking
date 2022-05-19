@@ -1,4 +1,5 @@
 
+
 export default function DataPrint({ packageChoice })
 {
     if (packageChoice !== undefined)
@@ -11,7 +12,7 @@ export default function DataPrint({ packageChoice })
                     <li>Sender: <span className="RightSide">{packageChoice.sender}</span></li>
                     <li>Location: <span className="RightSide">{packageChoice.location_name}</span></li>
                     <li>Status: <span className="RightSide">{packageChoice.status}</span></li>
-                    <li>Verification Required: <span className="RightSide">{packageChoice.verification_required}</span></li>
+                    <li>Verification Required: <span className="RightSide">{packageChoice.verification_required.toString()}</span></li>
                     <br></br>
                     <li>User Name: <span className="RightSide">{packageChoice.user_name}</span></li>
                     <li>User Phone: <span className="RightSide">{packageChoice.user_phone}</span></li>

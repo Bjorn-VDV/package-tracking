@@ -1,4 +1,4 @@
-
+import moment from 'moment';
 
 export default function DataPrint({ packageChoice })
 {
@@ -17,8 +17,8 @@ export default function DataPrint({ packageChoice })
                     <li>User Name: <span className="RightSide">{packageChoice.user_name}</span></li>
                     <li>User Phone: <span className="RightSide">{packageChoice.user_phone}</span></li>
                     <br></br>
-                    <li>Last updated: <span className="RightSide">{packageChoice.last_updated}</span></li>
-                    <li>ETA: <span className="RightSide">{packageChoice.eta}</span></li>
+                    <li>Last updated: <span className="RightSide">{moment(packageChoice.last_updated).format('LLLL')}</span></li>
+                    <li>ETA: <span className="RightSide">{moment(packageChoice.eta).format('LLLL')}</span></li>
                     <li className="Note"> <br></br>Notes: <br></br>{packageChoice.notes}</li>
                     <br></br>
                     -- Troubleshooting info Below -- 

@@ -1,5 +1,5 @@
 {
-  "homepage": "http://bjorn-vdv.github.io/package-tracking", 
+  "homepage": "http://bjorn-vdv.github.io/package-tracking",
   "name": "package-tracking",
   "version": "0.1.0",
   "private": true,
@@ -8,6 +8,7 @@
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
     "gh-pages": "^4.0.0",
+    "moment": "^2.29.3",
     "package": "^1.0.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",

@@ -24,6 +24,7 @@ export default function DataPrint({ packageChoice })
                     -- Troubleshooting info Below -- 
                     <li className="Trouble">Parcel ID: {packageChoice.parcel_id}</li>
                     <li className="Trouble">Location ID: {packageChoice.location_id}</li>
+                    <li className="Trouble">Location X: {packageChoice.location_coordinate_longitude} -- Location Y: {packageChoice.location_coordinate_latitude}</li>
                 </ul>
             </li>)
     }

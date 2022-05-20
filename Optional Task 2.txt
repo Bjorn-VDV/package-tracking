@@ -1,0 +1,12 @@
+Task 2: Optional
+    --> Briefly describe ( or implement partially ) how can this solution be scaled to support multiple countries and languages?
+
+Although not entirely complicated, timezones are very difficult to deal with when doing anything programming related. Luckily there are many reachable API's to use to make
+conversions and calculations relatively simplified, but these are arguably never error-free.
+
+Languages can either be hardcoded in with a dropdown menu for language choices, filling in arrays with direct translations and using those to correspond with the number of
+the language used.
+Another and more elegant manner would be through the use of react-i18next which allows for direct internalisation as it uses automative machine translation. This means we
+cover many languages at one time as well without bloating the software through a multitude of different hardcoded languages.
+
+The support of multiple countries is otherwise relatively decently integrated. There are longtitude and latitude 

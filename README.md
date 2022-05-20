@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Additional information
+
+This app was created as an additional side project for educational purposes with Lexicon.
+Design choices were made with intention to keep the app functional yet minimalistic. The information comes out clear and has
+    decent enough contrast between the data information's naming and the actual data.
+
+### USING THE APP
+
+The app has two ways of being run. 
+    - Getting the code into a folder and running it from the terminal within Visual Studio Code through the command: 'npm start'. More compound explanations and commands found above. 
+        This method will allow you to also host the code on your own custom domain.
+
+    - Running the website through the hosted (examplary) domain: 'http://bjorn-vdv.github.io/package-tracking'
+        Should this domain somehow fail to load, please search for the top line within "Package.json" and read the "homepage" line to confirm whether the link is still accurate. If the links match, it means Github has temporarily or permanently disabled the domain for an undeterminable reasoning.
